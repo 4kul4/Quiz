@@ -1,0 +1,82 @@
+.gridauto {
+    margin-top: 3%;
+    margin-left: 10%;
+    display: grid;
+  grid-template-areas: "text content"
+                       "text2 content"
+                       "text3 content"
+                       "text4 content";
+    grid-template-rows: 40px
+                        30px
+                        auto;
+    grid-template-columns: 320px auto;
+}
+.photo { 
+  grid-area: content; 
+}
+.text {
+    color: #8587ff;
+    grid-area: text;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text2 {
+    color: #ea8bf8;
+    grid-area: text2;
+    margin-top: 30%;
+}
+.text3 {
+    color: #ea8bf8;
+    grid-area: text3;
+    margin-top: 40%;
+}
+.text4 {
+    color: #dc7e7e;
+    grid-area: text4;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+.gridmain {
+    margin-top: 3%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-areas: "photo text11"
+                       "photo text22"
+                       "photo gpap"
+                       "photo text33"
+                        "photo text4";
+    grid-template-rows: 50px
+                        50px
+                        60px
+                        60px
+                        auto;
+    grid-template-columns: 450px 500px;
+}
+.content {
+    grid-area: photo;
+}
+.text11 {
+    grid-area: text11;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.text22 {
+    grid-area: text22;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.text33 {
+    grid-area: text33;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.text4 {
+    grid-area: text4;
+    margin-top: 3%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+

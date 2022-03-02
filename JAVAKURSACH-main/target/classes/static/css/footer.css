@@ -1,0 +1,51 @@
+.wrapper_footer{
+    margin-left: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    height: 80px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "copyright label contacts contacts2";
+    grid-template-columns: 350px 1fr 1fr 120px;
+    margin-top: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.footer_p{
+    display: flex;
+    font-family: 'Arial', cursive;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-area: label;
+    justify-content: center;
+    padding-top: 0%;
+}
+
+
+.footer_p p{
+    font-size: 140%;
+}
+
+.footer_contacts{
+    font-family: 'San Francisco Display Regular';
+    margin-left: 80%;
+    color: rgb(141, 138, 138);
+    grid-area: contacts;
+}
+.footer_contacts2{
+    margin-top: 3%;
+    margin-right: 10%;
+    color: rgb(141, 138, 138);
+    grid-area: contacts2;
+}
+
+.footer_copyright{
+    font-family: 'San Francisco Display Thin';
+    margin-right: 1%;
+    margin-left: 2%;
+    text-align: justify;
+    padding-top: 0%;
+    color: rgb(141, 138, 138);
+    grid-area: copyright;
+    font-size: 80%;
+}

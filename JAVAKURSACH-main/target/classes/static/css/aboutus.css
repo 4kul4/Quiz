@@ -1,0 +1,60 @@
+.gridaboutus {
+    margin-top: 3%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-areas: "text text"
+                       "text1 text2"
+                       "text11 text21"
+                        "text12 text22"
+                        "map map";
+    grid-template-rows: 50px
+                        30px
+                        auto;
+    grid-template-columns: auto auto;
+}
+.photo {
+    grid-area: content;
+}
+.text {
+    font: 24pt Tooney Noodle NF;
+    grid-area: text;
+    font-size: 40px;
+    margin-left: 30%;
+}
+.text1 {
+    grid-area: text1;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 30%;
+}
+.text11 {
+    grid-area: text11;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.text12 {
+    grid-area: text12;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.text2 {
+    grid-area: text2;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.text21 {
+    grid-area: text21;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.text22 {
+    grid-area: text22;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.map{
+    grid-area: map;
+    margin-top: 5%;
+    margin-left: 8%;
+}
